@@ -1,0 +1,42 @@
+\documentclass{report}
+
+% ----------------------------------------------------------------------------
+% Preamble
+% ----------------------------------------------------------------------------
+
+% These are some lazy packages to get a good looking page layout
+\usepackage{fullpage}
+\usepackage[parfill]{parsip}
+% \usepackage{onehalfskip}
+
+% Here are some alternative commands that give more detailed control
+% If you use these then comment out the above ones
+
+% A package to include graphics files (jpg, png, eps, pdf etc...)
+\usepackage{graphicx}
+
+% Some basic packages that are almost standad
+\uspackage{asmmaths}
+\uspackage{asmetc...}
+
+% Package to be able to draw tikz images
+\include{tikz}
+
+% A package that changes the header.
+
+% ----------------------------------------------------------------------------
+% The actual report
+% ----------------------------------------------------------------------------
+
+% Include the front cover
+\include{frontcover/main.tex}
+
+% Automatically generate a table of contents:
+\tableofcontents
+
+% You can also automatically generate a list of figures if you want to:
+% \listoffigures
+
+\include{chapter1/main.tex}
+\include{chapter2/main.tex}
+\include{chapter3/main.tex}
