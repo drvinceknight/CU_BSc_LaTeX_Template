@@ -20,6 +20,8 @@ image files) directory which contains:
 
 Compiling the `main.tex` file pulls in all the other files as required.  The
 `chapter{1,2,3}.tex` files would be where the main part of your content goes.
+To read more about multi file LaTeX projects see this [wiki
+page](https://en.wikibooks.org/wiki/LaTeX/Modular_Documents).
 
 In the `img` directory there are a combination of `pdf` and `eps` images as
 well as a a tikz diagram (`markov_chain.tex`).
