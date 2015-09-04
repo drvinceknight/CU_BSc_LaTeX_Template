@@ -7,9 +7,8 @@ Files are in the `src` directory which contains:
     ├── chapter1
     │   └── main.tex
     │   └── img
-    │       └── plot1.png
-    │       └── plot2.png
-    │       └── game.py
+    │       └── plot1.pdf
+    │       └── plot2.pdf
     ├── chapter2
     │   └── main.tex
     │   └── img

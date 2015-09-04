@@ -1,7 +1,11 @@
+\chapter{Introduction}\label{cha:introduction}
+
 \section{Introduction}
 
 There is this data that is pretty awesome, I'm going to plot it and show it to
 you in sections~\ref{sec:the_data} and~\ref{sec:the_distribution_of_the_data}.
+
+\lipsum
 
 \section{The data}\label{sec:the_data}
 
@@ -13,13 +17,16 @@ In Figure~\ref{fig:the_data} we see data that was generated using
 \end{equation}
 
 \begin{equation}
-    y = 2(1 + \epsilon) x + 5
+    y = 2(1 + \epsilon) x + 5\label{equ:random_data}
 \end{equation}
 
 where \(\epsilon\in(-0.5, 0.5)\) is a random number.
 
 \begin{figure}[!hbtp]
-    \includgraphics[width=.6\textwidth]{img/plot1.pdf}
+    \begin{center}
+        \includegraphics[width=.6\textwidth]{../img/plot1.pdf}
+        \caption{The great data}\label{fig:the_data}
+    \end{center}
 \end{figure}
 
 \section{The distribution of the data}\label{sec:the_distribution_of_the_data}
@@ -27,9 +34,15 @@ where \(\epsilon\in(-0.5, 0.5)\) is a random number.
 Figure shows the distribution of the data.
 
 \begin{figure}[!hbtp]
-    \includgraphics[width=.6\textwidth]{img/plot2.pdf}
+    \begin{center}
+        \includegraphics[width=.6\textwidth]{../img/plot2.pdf}
+        \caption{The distribution of the great data}\label{fig:the_distribution_of_the_data}
+    \end{center}
 \end{figure}
+
+\lipsum
 
 \section{Conclusion}\label{sec:conclusion}
 
-This chapter was amazing.
+This chapter was amazing, here is a reference to a paper~\cite{Gillard2014}.
+
