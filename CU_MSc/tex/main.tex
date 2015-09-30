@@ -24,7 +24,7 @@
 \fancypagestyle{normal}{
 \fancyhf{}
 \fancyhead[L]{\slshape \leftmark} %chapter
-\fancyhead[R]{\thepage} %foote
+\fancyhead[R]{\thepage} %footer
 \renewcommand{\headrulewidth}{1pt}
 }
 % 'chapterstyle' for start of chapters (no chapter in header)
@@ -32,7 +32,6 @@
     \fancyhf{}
     \fancyhead[R]{\thepage}
     \renewcommand{\headrulewidth}{0pt}% Line at the header invisible
-    \renewcommand{\footrulewidth}{0 pt}% Line at the footer visible
 }
 
 % Package to automatically change headerfooter style at start of chapters
@@ -66,13 +65,13 @@
 \addbibresource{bibliography.bib}
 
 
-% Package to add features to for tables
+% Package to add features for tables
 \usepackage{multirow}
 \usepackage{booktabs}
 \setlength{\heavyrulewidth}{1.5pt}
 \setlength{\abovetopsep}{4pt}
 
-% Packages to allow sub-captioning
+% Package to allow sub-figures
 \usepackage{subcaption}
 
 
