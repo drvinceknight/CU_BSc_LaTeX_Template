@@ -1,4 +1,5 @@
 *.DS_Store
+
 *checkpoint.ipynb
 
 *.aux
@@ -27,3 +28,4 @@
 *bcf
 *fdb_latexmk
 *fls
+*.xml
